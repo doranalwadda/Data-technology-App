@@ -39,7 +39,7 @@ if (isset($_GET['id'])) {
         <label for="id">ID</label>
         <label for="name">Device Name</label>
         <input type="text" name="ID" placeholder="1" value="<?=$app_usage['ID']?>" id="ID">
-        <input type="text" name="name" placeholder="" value="<?=$app_usage['Device Name']?>" id="Device name">
+        <input type="text" name="name" placeholder="" value="<?=$app_usage['Device_Name']?>" id="Device name">
         <label for="email">Group Name</label>
         <label for="phone">Group Parent</label>
         <input type="text" name="email"  value="<?=$app_usage['Group Name']?>" id="email">
