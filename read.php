@@ -41,7 +41,7 @@ $num_app_usage = $pdo->query('SELECT COUNT(*) FROM app_usage')->fetchColumn();
 
             <tr>
                 <td><?=$app_usage['ID']?></td>
-                <td><?=$app_usage['Device Name']?></td>
+                <td><?=$app_usage['Device_Name']?></td>
                 <td><?=$app_usage['Group Name']?></td>
                 <td><?=$app_usage['Group Parent']?></td>
                 <td><?=$app_usage['Application']?></td>
